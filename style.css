@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #3a240b, #0d2c54);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.search-box {
+  margin: 30px 0;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  width: 250px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #2eff8c;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #dcdcdc;
+  color: #333;
+  width: 220px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.city {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  background: rgb(138, 136, 133);
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+.temp {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
