@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ammar Weather App</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Ammar Weather App</h1>
+    <div class="container">
 
-<div class="search-box">
-  <input type="text" id="city" placeholder="Search for a city">
-  <button onclick="getWeather()">SUBMIT</button>
-</div>
+        <h1>Ammar Weather App</h1>
 
-<div class="cards">
+        <div class="search-box">
+            <input type="text" placeholder="Search city">
+            <button>Search</button>
+        </div>
 
-  <div class="card">
-    <div class="city">Gujrat <span class="tag">FR</span></div>
-    <div class="temp">9°C</div>
-    
-    <div class="desc">LIGHT INTENSITY DRIZZLE</div>
-  </div>
+        <div class="cards">
 
-  <div class="card">
-    <div class="city">Sialkot <span class="tag">AU</span></div>
-    <div class="temp">15°C</div>
-    
-    <div class="desc">CLEAR SKY</div>
-  </div>
+            <div class="card">
+                <div class="top">
+                    <h2>Gujrat</h2>
+                    <span>🌧️</span>
+                </div>
 
-</div>
+                <h3>9°C</h3>
 
-<script src="script.js"></script>
+                <p>Light Intensity Drizzle</p>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <h2>Sialkot</h2>
+                    <span>☀️</span>
+                </div>
+
+                <h3>15°C</h3>
+
+                <p>Clear Sky</p>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <h2>Lahore</h2>
+                    <span>⛅</span>
+                </div>
+
+                <h3>22°C</h3>
+
+                <p>Few Clouds</p>
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
